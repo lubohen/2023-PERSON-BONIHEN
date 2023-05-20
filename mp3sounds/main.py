@@ -15,7 +15,7 @@ for music in music_list:
 
 ydl_opts = {
     'format': 'bestaudio/best',
-    'outtmpl': 'C:\\Users\\luboh\\OneDrive\\Documentos\\Python Scripts\\Projetos2023\\PERSONAL\\2023-PERSON-BONIHEN\\mp3sounds\\sounds\\%(title)s.%(ext)s', 
+    'outtmpl': '/your/repository/output/%(title)s.%(ext)s', 
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
