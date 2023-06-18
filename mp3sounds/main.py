@@ -3,7 +3,7 @@ import youtube_dlc as youtube_dl
 from youtubesearchpython import VideosSearch
 
 # Lista de nomes de músicas
-music_list = []
+music_list = ['Skank - Te ver','Jota Quest - Só hoje','Paul Young - Every Time you go away']
 
 # Pesquisar no YouTube e obter a primeira URL de cada música
 urls = []
